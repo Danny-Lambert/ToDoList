@@ -1,0 +1,40 @@
+
+.todo{
+    // border: 2px pink solid;
+    // background-color: rgba(238, 46, 46, 0.87);
+    
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        // border: 1px solid black;
+        font-family: sans-serif;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        // text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+        background-color: #282c34;
+        border: 1px solid black;
+        font-weight: bold;
+        padding: 1%;
+        word-wrap: break-word;
+        color: white;
+        border-radius: 2%;
+        margin: 1%;
+    
+        }
+    
+// .removeButton {
+//         border-radius: 50%;
+//         color: white;
+//         background-color: red;
+//         border: 2px solid red;
+    
+//         &:onhover{
+//         background-color: black;
+//         }
+//     }
+
+    
+    @media only screen and (max-width: 1000px) {
+        body{
+            padding: 1%;
+    }}
